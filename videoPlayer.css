@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background-color: lightseagreen;
+}
+body > a {
+  color: yellow;
+}
+#back {
+  color: yellow;
+  font-size: 18px;
+  padding: 20px;
+}
+#title {
+  color: yellow;
+  text-align: center;
+}
+#main-card {
+  background-color: #fff;
+  width: 70%;
+  margin: auto;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+iframe {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 370px;
+}
+#video-section {
+  width: 70%;
+  border-right: 2px solid rgb(228, 224, 224);
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+#playlist-section {
+  width: 30%;
+  height: 100vh;
+  overflow: auto;
+}
+#video-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  color: rgb(71, 70, 70);
+  font-size: 25px;
+}
+#icons i {
+  margin-left: 15px;
+}
+#vd-desc {
+  color: rgb(105, 104, 104);
+}
+#loading {
+  text-align: center;
+  display: none;
+}
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 2px rgb(117, 116, 116);
+}
+.card > a {
+  text-decoration: none;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-title {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}

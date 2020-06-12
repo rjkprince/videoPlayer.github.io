@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: aqua;
+}
+.card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.card {
+  width: calc(25% - 60px);
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid #fff;
+}
+.card > a {
+  text-decoration: none;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-title {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}

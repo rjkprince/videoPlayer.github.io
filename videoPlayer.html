@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video-Player</title>
+    <script
+      src="https://kit.fontawesome.com/5576fe9fdb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./videoPlayer.css" />
+  </head>
+  <body>
+    <h1 id="loading">Loading...</h1>
+    <a href="./index.html"><div id="back">Back to Home</div></a>
+    <h1 id="title">The Video Player</h1>
+    <div id="main-card">
+      <div id="video-section">
+        <iframe
+          src="https://player.vimeo.com/video/190062231"
+          frameborder="0"
+        ></iframe>
+        <div id="video-stat">
+          <p id="views">98.4K views</p>
+          <div id="icons">
+            <i class="far fa-heart"></i>
+            <i class="far fa-comment-alt"></i>
+            <i class="far fa-bookmark"></i>
+          </div>
+        </div>
+        <div id="desc">
+          <h1 id="vd-title">Croissants | Flour and Stone</h1>
+          <p id="vd-desc">
+            There is no other way but to commit wholeheartedly to a relationship
+            with a croissant. We have all found ourselves at the mercy of its
+            allure. Here, in another epic film by the uber talented Nathan
+            Rodger, our Erin divulges her personal romance with The Croissant.
+          </p>
+        </div>
+      </div>
+      <div id="playlist-section"></div>
+    </div>
+
+    <script src="./videoPlayer.js"></script>
+  </body>
+</html>
