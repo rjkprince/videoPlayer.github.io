@@ -96,7 +96,7 @@ iframe {
     width: 100%;
   }
   #playlist-section {
-    width: 110%;
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
