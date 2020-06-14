@@ -91,7 +91,21 @@ iframe {
     border: none;
     border-bottom: 2px solid rgb(98, 97, 97);
   }
+  iframe {
+    height: 300px;
+    width: 100%;
+  }
   #playlist-section {
     width: 110%;
+  }
+}
+@media (max-width: 600px) {
+  iframe {
+    height: 250px;
+  }
+}
+@media (max-width: 500px) {
+  iframe {
+    height: 200px;
   }
 }
